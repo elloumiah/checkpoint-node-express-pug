@@ -1,0 +1,36 @@
+body {
+    height: 125vh;
+    background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: white;
+}
+
+body nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+body nav * {
+    display: inline;
+}
+
+body li {
+    margin: 20px;
+}
+
+body li a {
+    color: black;
+    text-decoration: none;
+}
